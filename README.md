@@ -9,16 +9,10 @@ Learn Redux and make a note for everyone include me.
  - Install terminal [**cmder**](https://cmder.net/) (only if you are windows user)
 
 
-## 2. React Router Model
-import from **"react-router-dom"**
-- Router > router model component
-- Route > redirect to URL
-- browserHistory > store the history data
-- Link > href and redirect
-- IndexRoute > initial the default component in the home page
-
-
-## 3. Store data in Redux
-Contain all the data in the `Redux object` instead of `individual state` in every components.
-dispatching actions
-reducers
+## 2. React Router with 
+Router > router component
+browserHistory > ?
+Link > href
+Route > redirect
+IndexRoute > initial the component in
+React.cloneElement
