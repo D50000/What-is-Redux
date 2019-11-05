@@ -3,7 +3,7 @@
 // 2. copy of current state
 
 
-// initial the state with empty array.
+// initial the state with empty array. ES6 default input state = [] .
 function posts(state = [], action){
     console.log("Post change.")
     console.log(state, action);

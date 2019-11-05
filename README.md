@@ -10,12 +10,13 @@ Learn Redux and make a note for everyone include me.
 
 
 ## 2. React Router Model
-import from **"react-router-dom"**
+import from **"react-router-dom"**  
+react router API v3
 - Router > router model component
 - Route > redirect to URL
 - browserHistory > store the history data
 - Link > href and redirect
-- IndexRoute > initial the default component in the home page
+- IndexRoute > initial the default component in the home page (Deprecated on V4)
 
 
 ## 3. Store data in Redux
