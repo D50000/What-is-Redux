@@ -20,6 +20,21 @@ react router API v3
 
 
 ## 3. Store data in Redux
-Contain all the data in the `Redux object` instead of `individual state` in every components.
-dispatching actions
-reducers
+Storing all the data in the Redux object instead of individual state in every components.
+1. Dispatching actions to reducers.
+2. Reducer will mapping to the function and implement.
+
+
+## 4. React refs
+Refs provide a way to access DOM nodes or React elements created in the render method.(Do not overuse)
+```
+console.log(this.refs);
+// Will get the Object of refs HTML components.
+
+<div ref={this.props.num1} />;
+<div ref={this.props.num2} />；
+```
+
+
+## 5. Reducer Composition
+Create a new **reducer** that calls the existing **reducers** to manage parts of its state and combines the results in a single state object.
