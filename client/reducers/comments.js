@@ -8,7 +8,10 @@ function postComments(state = [], action){
                 text: action.comment
             }]
         case "REMOVE_COMMENT" :
-
+            return[
+                ...state.slice(0, action.i),
+                ...state.slice(action.i + 1)
+            ]
         default:
             return state;
     }
