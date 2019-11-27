@@ -38,3 +38,25 @@ console.log(this.refs);
 
 ## 5. Reducer Composition
 Create a new **reducer** that calls the existing **reducers** to manage parts of its state and combines the results in a single state object.
+
+
+## 6. Error Tracking and Insights with Sentry
+- Dash board for monitoring the client activities and log.
+- Individual devices, browser, OS, user and others.
+- Classify the error log by customize tag.
+
+1. Import **Raven** for exporting user log.
+2. Authorize the permission to the **Sentry** app.
+3. Set up the configuration and import the component to the index.js.
+
+
+## 7. Redux Dev Tools
+- Toggle any actions by **Time machine** for issue tracking.
+- Reset, Revert, Sweep, Commit features.
+
+
+## 8. Redux extend
+Can not put **asynchronous** code in **Reducer** directly.
+Use libraries below:
+- **reux-thunk**
+- **redux-sagas**
