@@ -57,6 +57,7 @@ Create a new **reducer** that calls the existing **reducers** to manage parts of
 
 ## 8. Redux extend
 Can not put **asynchronous** code in **Reducer** directly.
-Use libraries below:
+Use libraries below:  
+It will fetch the asynchronous API then **dispatching** the action to the reducer.
 - **reux-thunk**
 - **redux-sagas**
