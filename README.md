@@ -1,6 +1,6 @@
 # What-is-Redux
-Learn Redux and make a note for everyone include me.
-
+Learn [Redux](https://redux.js.org/tutorials/essentials/part-1-overview-concepts) and make a note for everyone include me.  
+Bundle container for store the total reducer/dispatcher for the action objects.
 
 ## 1. Environment setup
  - Install **node.js** (for running modules and tools)
